@@ -1,0 +1,34 @@
+.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+#todos {
+  list-style: none;
+  /*margin,padding: 0;*/
+  margin: 0;
+}
+
+#todos li {
+  padding: 10px 0;
+  border-bottom: 0.5px solid #eee;
+}
+
+.del {
+  float: right;
+  color: red;
+  cursor: pointer;
+}
+
+input[type='checkbox'] {
+  margin-right: 20px;
+}
+
+.editText {
+  display: none;
+}
+
+.saveItem {
+  display: none;
+  margin-right: 40px;
+}
